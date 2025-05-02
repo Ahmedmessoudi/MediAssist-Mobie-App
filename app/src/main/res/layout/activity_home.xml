@@ -46,7 +46,8 @@
                 android:id="@+id/accountIcon"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:layout_gravity="end"
+                android:layout_gravity="bottom|end"
+                android:layout_marginBottom="8dp"
                 android:contentDescription="Account Icon"
                 android:src="@drawable/user"
                 app:tint="@android:color/white" />

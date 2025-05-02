@@ -49,10 +49,11 @@ public class WelcomeActivity extends AppCompatActivity {
         finishButton = findViewById(R.id.finishButton);
 
         slides = new ArrayList<>();
-        slides.add(new SlideItem(R.drawable.a1, "Medications", "Never miss a dose and take\ncontrol of your health."));
-        slides.add(new SlideItem(R.drawable.p1, "Prescriptions", "Start saving your health\ninformation today."));
-        slides.add(new SlideItem(R.drawable.a3, "Appointments", "Start now to never miss an\nappointment again."));
-        slides.add(new SlideItem(R.drawable.a2, "Start Your Healthy Journey NOW !", "Start your journey towards\nimproved health with just one\ntap.."));
+        slides.add(new SlideItem(R.drawable.a1, "Medications", "Stay on track with your medications\nand take charge of your health."));
+        slides.add(new SlideItem(R.drawable.p1, "Prescriptions", "Securely manage and access your\nprescriptions anytime."));
+        slides.add(new SlideItem(R.drawable.a3, "Appointments", "Never miss a medical appointment\nwith smart reminders."));
+        slides.add(new SlideItem(R.drawable.a2, "Start Your Health Journey", "Take the first step toward better health\nwith just a tap."));
+
 
         adapter = new WelcomeAdapter(slides);
         viewPager.setAdapter(adapter);
